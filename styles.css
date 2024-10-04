@@ -24,7 +24,7 @@ h1 {
   font-family: graffiti;
   font-size: 80px;
   text-align: center;
-  z-index: 1;
+  z-index: 100;
   position: relative;
   color: white;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
