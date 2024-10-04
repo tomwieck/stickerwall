@@ -5,7 +5,7 @@ window.onload = function () {
   const viewportWidth = window.innerWidth;
   const viewportHeight = window.innerHeight;
 
-  const textHeight = 100;
+  const textHeight = 150;
 
   const max = 60;
   const min = -55;
@@ -18,7 +18,7 @@ window.onload = function () {
 
     // Generate random values for top and left (inside viewport bounds)
     const randomTop = Math.floor(
-      Math.random() * (viewportHeight - element.offsetHeight)
+      Math.random() * ((viewportHeight * 2) - element.offsetHeight)
     );
     const randomLeft = Math.floor(
       Math.random() * (viewportWidth - element.offsetWidth)

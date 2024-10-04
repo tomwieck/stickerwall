@@ -32,7 +32,8 @@ h1 {
 }
 
 img {
-  width: 200px;
+  width: 25vw;
+  max-width: 200px;
   border-radius: 10px;
   filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white)
     drop-shadow(1px -1px 0 white) drop-shadow(-1px -1px 0 white);
